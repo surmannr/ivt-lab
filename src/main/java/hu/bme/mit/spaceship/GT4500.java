@@ -53,7 +53,7 @@ public class GT4500 implements SpaceShip {
               firingSuccess = primaryTorpedoStore.fire(1);
               wasPrimaryFiredLast = true;
             }
-
+            // ide teszek egy sort a B branchez és ez jó
             // if both of the stores are empty, nothing can be done, return failure
           }
         }
@@ -75,7 +75,7 @@ public class GT4500 implements SpaceShip {
           }
         }
         break;
-
+        // ide teszek egy sort B branchez, de sh...
       case ALL:
         // try to fire both of the torpedo stores
         if (! primaryTorpedoStore.isEmpty()) {
