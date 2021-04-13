@@ -75,7 +75,7 @@ public class GT4500 implements SpaceShip {
           }
         }
         break;
-       // ide teszek egy sort az A branchez
+        // ide teszek egy sort B branchez, de sh...
       case ALL:
         // try to fire both of the torpedo stores
         if (! primaryTorpedoStore.isEmpty()) {
